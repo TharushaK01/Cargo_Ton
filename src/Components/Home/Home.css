@@ -1,0 +1,179 @@
+.home{
+    position: relative;
+    width: 100vw;
+    min-height: 100vh;
+    background-image: url('../../assets/Background.png');
+    background-size: cover;         
+    background-position: center;    
+    background-repeat: no-repeat;   
+    overflow: hidden; 
+ 
+   
+}
+.ship{
+    position: relative;
+    z-index: 2;
+    width: 100vw;
+    height: 100%;
+    padding-left: 8%;
+    padding-right: 7%;
+    padding-top: 19.4%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.upper{
+    text-align: center;
+    max-width: 100vw;
+    font-size: 180px;
+    font-weight: 800;
+    color: #fff;
+    margin-top: -29%;
+}
+.lower{
+    text-align: center;
+    max-width: 100vw;
+    font-size: 180px;
+    font-weight: 800;
+    color: #ffb400;
+    margin-top: 2%;
+}
+/* .para{
+    text-align: center;
+    max-width: 100vw;
+    font-size: 20px;
+    font-weight: 400;
+    color: #fff;
+} */
+.btn2{
+    position: absolute;
+    margin-top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #ffb400;
+    color: #000;
+    padding: 14px 25px;
+    font-size: 16px;
+    border-radius: 30px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+.para-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  max-width: 100vw;
+  padding: 20px;
+}
+
+.arrow {
+  font-size: 24px;
+  color: #ffb400;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.arrow:hover {
+  transform: scale(1.2);
+}
+
+.para {
+  text-align: center;
+  max-width: 60vw;
+  font-size: 20px;
+  font-weight: 400;
+  color: #fff;
+}
+/* Media Query for Tablets (≤800px) */
+@media screen and (max-width: 800px) {
+    .home {
+        min-height: 80vh; /* Reduce height for smaller screens */
+    }
+
+    .ship {
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-top: 15%; /* Reduce top padding */
+    }
+
+    .upper, .lower {
+        font-size: 100px; /* Smaller font size */
+        margin-top: -20%; /* Adjust margin for better fit */
+    }
+
+    .lower {
+        margin-top: 1%;
+    }
+
+    .btn2 {
+        padding: 12px 20px; /* Smaller button */
+        font-size: 14px;
+    }
+
+    .para-container {
+        gap: 15px; /* Reduce gap */
+        padding: 15px;
+    }
+
+    .para {
+        max-width: 80vw; /* Wider paragraph area */
+        font-size: 18px; /* Smaller font */
+    }
+
+    .arrow {
+        font-size: 20px; /* Smaller arrow */
+    }
+}
+
+/* Media Query for Mobile (≤768px) */
+@media screen and (max-width: 768px) {
+    .home {
+        min-height: 70vh; /* Further reduce height */
+        background-position: center; /* Ensure background stays centered */
+    }
+
+    .ship {
+        padding-left: 3%;
+        padding-right: 3%;
+        padding-top: 10%; /* Further reduce top padding */
+        flex-direction: column; /* Stack content vertically */
+    }
+
+    .upper, .lower {
+        font-size: 60px; /* Much smaller font size */
+        margin-top: -15%; /* Adjust margin */
+    }
+
+    .lower {
+        margin-top: 0.5%;
+    }
+
+    .btn2 {
+        padding: 10px 15px; /* Even smaller button */
+        font-size: 12px;
+        border-radius: 25px; /* Slightly smaller radius */
+    }
+
+    .para-container {
+        flex-direction: column; /* Stack arrows and paragraph */
+        gap: 10px;
+        padding: 10px;
+    }
+
+    .para {
+        max-width: 90vw; /* Full width for paragraph */
+        font-size: 16px; /* Smaller font */
+    }
+
+    .arrow {
+        font-size: 18px; /* Smaller arrow */
+    }
+}
+
+@media (max-width: 1024px) {
+  .ship {
+    opacity: 0;
+  }
+}
