@@ -16,7 +16,7 @@ const Footer = () => {
           <hr className="divider" />
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
           <p>📞 + (94) 71 883 2011</p>
-          <p>📍 Kurunegala, Sri</p>
+          <p>📍 Kurunegala, Sri Lanka.</p>
         </div>
         <div className="footer-section">
           <h3>Latest News</h3>
@@ -45,6 +45,13 @@ const Footer = () => {
             <img src={image2} alt="Service 2" />
             <img src={image3} alt="Service 3" />
             <img src={image4} alt="Service 4" />
+          </div><br/>
+          <h3>Weekly Newsletter</h3>
+          <hr className="divider" />
+          <p>There are many variations of passages of lorem ipsum available.</p>
+          <div className="newsletter-signup">
+            <input type="email" placeholder="Enter Your Mail" />
+            <button>SUBSCRIBE</button>
           </div>
         </div>
       </div>
