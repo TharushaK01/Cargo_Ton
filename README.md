@@ -1,8 +1,5 @@
 # 🚢 Cargo Ton - Shipment & Logistics Management System  
-
-
-
-A modern **web-based shipment tracking and fleet management system** designed to simplify cargo logistics operations.  
+ 
 
 🔗 **Live Demo:** [https://tharushak01.github.io/Cargo_Ton/](https://tharushak01.github.io/Cargo_Ton/)  
 
@@ -10,8 +7,7 @@ A modern **web-based shipment tracking and fleet management system** designed to
 
 ## 🛠️ Technologies Used  
 
-- **Frontend:** HTML5, CSS3, JavaScript  
-- **Maps Integration:** (e.g., Google Maps API or Leaflet.js - mention if used)  
+- **Frontend:** ReactJS, HTML5, CSS3, JavaScript  
 - **Deployment:** GitHub Pages  
 
 ---
