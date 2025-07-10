@@ -313,7 +313,7 @@
   }
 }
 
-@media (max-width: 393px) {
+@media (max-width: 480px) {
   .services-container {
     width: 90%; 
     margin: 0 auto; 
@@ -330,40 +330,6 @@
 
   .services-content {
     width: 100%;
-    padding: 12px; 
-  }
-
-  .btn3 {
-    padding: 6px 15px; 
-    font-size: 0.9rem;
-  }
-
-  .arrow img {
-    width: 14px; 
-    height: 14px;
-  }
-}
-
-.services-text h4 {
-  font-size: 1rem;
-}
-@media (max-width: 393px) {
-  .services-container {
-    width: 90%; 
-    margin: 0 auto; 
-  }
-
-  .services-wrapperr {
-    width: 95%; 
-    margin: 0 2px; 
-  }
-
-  .services1 {
-    height: 220px; 
-  }
-
-  .services-content {
-    width: 100%; 
     padding: 12px; 
   }
 
