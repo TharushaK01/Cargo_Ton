@@ -39,9 +39,7 @@ const Services = () => {
         <h2>Best Global Logistics Solutions</h2>
       </div>
       <div className="slider-container">
-        <button className="arrow left-arrow" onClick={handlePrev}>
-          <img src={leftArrow} alt="Left Arrow" />
-        </button>
+          <img src={leftArrow} alt="Left Arrow" className="arrow left-arrow" onClick={handlePrev}/>
         <div className="services-container" ref={sliderRef}>
           <div className="services-wrapperr">
             <img src={services1} alt="Air Freight" className="services1" />
@@ -84,9 +82,7 @@ const Services = () => {
             </div>
           </div>
         </div>
-        <button className="arrow right-arrow" onClick={handleNext}>
-          <img src={rightArrow} alt="Right Arrow" />
-        </button>
+          <img src={rightArrow} alt="Right Arrow" className="arrow right-arrow" onClick={handleNext}/>
       </div>
       <div className="dots">
         {Array.from({ length: Math.ceil(totalItems / itemsPerView) }, (_, i) => (

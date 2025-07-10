@@ -1,10 +1,12 @@
 import React from 'react'
 import Navbar from './Components/Navbar/Navbar'
 import Home from './Components/Home/Home'
-import Welcome from './Components/welcome/welcome'
+import Welcome from './Components/Welcome/Welcome'
 import Services from './Components/Services/Services'
 import Stats from './Components/Stats/Stats'
 import Testimonial from './Components/Testimonial/Testimonial'
+import LogoSlider from './Components/LogoSlider/LogoSlider'
+import NewsSection from './Components/NewsSection/NewsSection'
 
 
 const App = () => {
@@ -16,6 +18,8 @@ const App = () => {
       <Services/>
       <Stats/>
       <Testimonial/>
+      <LogoSlider/>
+      <NewsSection  />  
 
     </div>
   )

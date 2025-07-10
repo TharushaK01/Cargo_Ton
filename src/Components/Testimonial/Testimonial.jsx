@@ -9,7 +9,7 @@ const Testimonial = () => {
     {
       name: "John Deo",
       role: "Managing Director",
-      description: "Integer congue elit non tempor laoreet sed lectus orci posuer nisl tempor ex felis ac mauris. Peleriesque inydi urna. Integer vitae felis vel magna posu du vestibulum. Nem totum congue diam. Aliquam malesuada maure etug met Conduire laoreet convallis nisi al pellentesque laboratum.",
+      description: "Integer congue elit non tempor laoreet sed lectus orci posuer nisl tempor ex felis ac mauris. Peleriesque inydi urna. Integer vitae felis vel magna posu du vestibulum. Nem totum congue diam.",
     },
     {
       name: "Jane Smith",
@@ -43,12 +43,10 @@ const Testimonial = () => {
       <div className="testimonial-section">
         {/* Trusted Clients Section */}
         <div className="testimonial-block">
-          <h1>TRUSTED CLIENTS</h1>
+          <h2>Trusted Cliets</h2>
           <p className="subheading">LOREM IPSUM DOLOR SIT AMET CONSECTETUR</p>
           <div className="slider-container">
-            <button className="arrow left-arrow" onClick={handlePrev}>
-              <img src={leftArrow} alt="Left Arrow" />
-            </button>
+              <img src={leftArrow} alt="Left Arrow" className="arrow left-arrow" onClick={handlePrev} />
             <div className="testimonial-slider">
               <div className="client-testimonial">
                 <p className="description">{testimonials[currentIndex].description}</p>
@@ -57,15 +55,13 @@ const Testimonial = () => {
                 <p className="client-role">{testimonials[currentIndex].role}</p>
               </div>
             </div>
-            <button className="arrow right-arrow" onClick={handleNext}>
-              <img src={rightArrow} alt="Right Arrow" />
-            </button>
+              <img src={rightArrow} alt="Right Arrow" className="arrow right-arrow" onClick={handleNext} />
           </div>
         </div>
 
         {/* Why Choose Us Section */}
         <div className="testimonial-block">
-          <h1>WHY CHOOSE US</h1>
+          <h2>Why Choose Us</h2>
           <p className="subheading">LOREM IPSUM DOLOR SIT AMET CONSECTETUR</p>
           <ul className="benefits-list">
             <li>Dul ac hendrerit elementum quam ipsum auctor lorem</li>
