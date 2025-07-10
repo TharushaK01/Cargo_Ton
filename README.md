@@ -1,12 +1,23 @@
-# React + Vite
+# 🚢 Cargo Ton - Shipment & Logistics Management System  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+A modern **web-based shipment tracking and fleet management system** designed to simplify cargo logistics operations.  
 
-## Expanding the ESLint configuration
+🔗 **Live Demo:** [https://tharushak01.github.io/Cargo_Ton/](https://tharushak01.github.io/Cargo_Ton/)  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Technologies Used  
+
+- **Frontend:** HTML5, CSS3, JavaScript  
+- **Maps Integration:** (e.g., Google Maps API or Leaflet.js - mention if used)  
+- **Deployment:** GitHub Pages  
+
+---
+
+## � Quick Start  
+
+1. **Clone the repo:**  
+   ```bash
+   git clone https://github.com/TharushaK01/Cargo_Ton.git
