@@ -97,8 +97,8 @@
   align-items: center;
   text-align: center;
   padding: 20px;
-  min-height: 200px; /* Minimum height to ensure content fits */
-  height: auto; /* Allows height to adjust based on content */
+  min-height: 200px; 
+  height: auto; 
 }
 
 .arrow {
@@ -128,7 +128,7 @@
   height: 20px;
 }
 
-/* Responsive adjustments */
+
 @media (max-width: 768px) {
   .testimonial-section {
     flex-direction: column;
@@ -177,6 +177,6 @@
   }
 
   .client-testimonial {
-    min-height: 150px; /* Adjusted for mobile */
+    min-height: 150px; 
   }
 }

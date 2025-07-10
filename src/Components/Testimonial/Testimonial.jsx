@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import rightArrow from '../../assets/right-arrow-head.png'; // Adjust path as needed
-import leftArrow from '../../assets/left-arrow-head.png'; // Adjust path as needed
+import rightArrow from '../../assets/right-arrow-head.png'; 
+import leftArrow from '../../assets/left-arrow-head.png'; 
 import './Testimonial.css';
 
 const Testimonial = () => {
@@ -41,7 +41,6 @@ const Testimonial = () => {
   return (
     <div className="test">
       <div className="testimonial-section">
-        {/* Trusted Clients Section */}
         <div className="testimonial-block">
           <h2>Trusted Cliets</h2>
           <p className="subheading">LOREM IPSUM DOLOR SIT AMET CONSECTETUR</p>
@@ -59,7 +58,6 @@ const Testimonial = () => {
           </div>
         </div>
 
-        {/* Why Choose Us Section */}
         <div className="testimonial-block">
           <h2>Why Choose Us</h2>
           <p className="subheading">LOREM IPSUM DOLOR SIT AMET CONSECTETUR</p>

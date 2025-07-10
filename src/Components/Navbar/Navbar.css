@@ -57,9 +57,9 @@ nav ul li {
 .nav-item:hover::before {
   opacity: 1;
 }
-/* Hamburger Icon Styles */
+
 .hamburger {
-    display: none; /* Hidden on desktop */
+    display: none; 
     cursor: pointer;
     padding: 10px;
     position: absolute;
@@ -82,7 +82,7 @@ nav ul li {
     display: none;
 }
 
-/* Media Query for Tablets (≤800px) */
+
 @media screen and (max-width: 800px) {
     nav {
         padding: 10px;
@@ -135,7 +135,7 @@ nav ul li {
     }
 }
 
-/* Media Query for Mobile (≤768px) */
+
 @media screen and (max-width: 768px) {
     nav {
         padding: 10px;

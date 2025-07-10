@@ -53,22 +53,22 @@
 
 
 .arrow-left {
-  left: -4rem; /* Adjusted to accommodate larger width */
+  left: -4rem; 
 }
 
 .arrow-right {
-  right: -4rem; /* Adjusted to accommodate larger width */
+  right: -4rem; 
 }
 
 .logo-img {
-  width: 200px; /* Slightly increased to match wider slider */
+  width: 200px; 
   height: 200px;
   object-fit: contain;
   /* background: #f0f0f0; */
   border-radius: 0.5rem;
   padding: 0 2rem;
 }
-/* Media Query for Tablets (max-width: 768px) */
+
 @media (max-width: 768px) {
   .logo-slider {
     max-width: 90%;
@@ -113,14 +113,14 @@
     padding: 1.5rem 0;
   }
 }
-/* Media Query for Mobile Devices (max-width: 480px) */
+
 @media (max-width: 480px) {
   .logo-slider {
     max-width: 95%;
     gap: 1rem;
-    padding: 1rem 1.5rem; /* Increased padding to ensure arrows stay in view */
+    padding: 1rem 1.5rem; 
     flex-direction: row;
-    overflow-x: visible; /* Changed to visible to ensure arrows are not clipped */
+    overflow-x: visible; 
   }
 
   .logo-img {
@@ -146,11 +146,11 @@
   }
 
   .arrow-left {
-    left: 0.5rem; /* Moved closer to the slider content */
+    left: 0.5rem; 
   }
 
   .arrow-right {
-    right: 0.5rem; /* Moved closer to the slider content */
+    right: 0.5rem; 
   }
 
   .logo-text h2 {

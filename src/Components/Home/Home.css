@@ -86,21 +86,21 @@
   font-weight: 400;
   color: #fff;
 }
-/* Media Query for Tablets (≤800px) */
+
 @media screen and (max-width: 800px) {
     .home {
-        min-height: 80vh; /* Reduce height for smaller screens */
+        min-height: 80vh; 
     }
 
     .ship {
         padding-left: 5%;
         padding-right: 5%;
-        padding-top: 15%; /* Reduce top padding */
+        padding-top: 15%; 
     }
 
     .upper, .lower {
-        font-size: 100px; /* Smaller font size */
-        margin-top: -20%; /* Adjust margin for better fit */
+        font-size: 100px;
+        margin-top: -20%; 
     }
 
     .lower {
@@ -108,42 +108,42 @@
     }
 
     .btn2 {
-        padding: 12px 20px; /* Smaller button */
+        padding: 12px 20px; 
         font-size: 14px;
     }
 
     .para-container {
-        gap: 15px; /* Reduce gap */
+        gap: 15px; 
         padding: 15px;
     }
 
     .para {
-        max-width: 80vw; /* Wider paragraph area */
-        font-size: 18px; /* Smaller font */
+        max-width: 80vw; 
+        font-size: 18px; 
     }
 
     .arrow {
-        font-size: 20px; /* Smaller arrow */
+        font-size: 20px; 
     }
 }
 
-/* Media Query for Mobile (≤768px) */
+
 @media screen and (max-width: 768px) {
     .home {
-        min-height: 70vh; /* Further reduce height */
-        background-position: center; /* Ensure background stays centered */
+        min-height: 70vh; 
+        background-position: center; 
     }
 
     .ship {
         padding-left: 3%;
         padding-right: 3%;
-        padding-top: 10%; /* Further reduce top padding */
-        flex-direction: column; /* Stack content vertically */
+        padding-top: 10%; 
+        flex-direction: column; 
     }
 
     .upper, .lower {
-        font-size: 60px; /* Much smaller font size */
-        margin-top: -15%; /* Adjust margin */
+        font-size: 60px; 
+        margin-top: -15%; 
     }
 
     .lower {
@@ -151,24 +151,24 @@
     }
 
     .btn2 {
-        padding: 10px 15px; /* Even smaller button */
+        padding: 10px 15px; 
         font-size: 12px;
-        border-radius: 25px; /* Slightly smaller radius */
+        border-radius: 25px; 
     }
 
     .para-container {
-        flex-direction: column; /* Stack arrows and paragraph */
+        flex-direction: column; 
         gap: 10px;
         padding: 10px;
     }
 
     .para {
-        max-width: 90vw; /* Full width for paragraph */
-        font-size: 16px; /* Smaller font */
+        max-width: 90vw;
+        font-size: 16px; 
     }
 
     .arrow {
-        font-size: 18px; /* Smaller arrow */
+        font-size: 18px; 
     }
 }
 

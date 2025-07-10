@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './LogoSlider.css';
-import rightArrow from '../../assets/right-arrow-head2.png'; // Adjust path as needed
-import leftArrow from '../../assets/left-arrow-head2.png'; // Adjust path as needed
+import rightArrow from '../../assets/right-arrow-head2.png'; 
+import leftArrow from '../../assets/left-arrow-head2.png'; 
 import logo1 from '../../assets/logo_1.png';
 import logo2 from '../../assets/logo_2.png';
 import logo3 from '../../assets/logo_3.png';

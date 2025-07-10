@@ -1,7 +1,5 @@
 import React from 'react';
 import './NewsSection.css';
-
-// Import images from src/assets/news
 import truckImage from '../../assets/truck.jpg';
 import containersImage from '../../assets/containers.jpg';
 import planeImage from '../../assets/plane.jpg';
@@ -36,10 +34,11 @@ const NewsSection = () => {
   ];
 
   return (
+    <div className="news">
     <div className="news-section">
       <div className="news-header">
-        <h2>LATEST NEWS</h2>
-        <span className="subtitle">INTERGER CONGUE ELIT</span>
+        <h2>Latest News</h2>
+        <p className="subtitle">Interger Congue Elit</p>
       </div>
       <div className="news-grid">
         {newsItems.map((item, index) => (
@@ -53,6 +52,7 @@ const NewsSection = () => {
           </div>
         ))}
       </div>
+    </div>
     </div>
   );
 };

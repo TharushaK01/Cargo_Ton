@@ -7,6 +7,7 @@ import Stats from './Components/Stats/Stats'
 import Testimonial from './Components/Testimonial/Testimonial'
 import LogoSlider from './Components/LogoSlider/LogoSlider'
 import NewsSection from './Components/NewsSection/NewsSection'
+import Footer from './Components/Footer/Footer'
 
 
 const App = () => {
@@ -20,7 +21,7 @@ const App = () => {
       <Testimonial/>
       <LogoSlider/>
       <NewsSection  />  
-
+      <Footer/>
     </div>
   )
 }

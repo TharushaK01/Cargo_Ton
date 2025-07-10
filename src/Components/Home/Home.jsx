@@ -3,7 +3,6 @@ import shipImage from '../../assets/SHIP.png';
 import { IoIosArrowBack, IoIosArrowForward } from 'react-icons/io';
 import React, { useState } from 'react';
 
-/* ParagraphSlider */
 const ParagraphSlider = () => {
   const paragraphs = [
     `Amet, tempus egestas facilisis volutpat viverra molestise lobortis 
@@ -43,7 +42,6 @@ const ParagraphSlider = () => {
   );
 };
 
-/* Home page */
 
 const Home = () => {
   return (

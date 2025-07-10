@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react'; // Added useRef to import
+import React, { useState, useEffect, useRef } from 'react'; 
 import services1 from '../../assets/Services1.jpg';
 import services2 from '../../assets/Services2.jpg';
 import services3 from '../../assets/Services3.jpg';
@@ -9,8 +9,8 @@ import './services.css';
 
 const Services = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
-  const totalItems = 4; // Total number of services-wrapperr
-  const itemsPerView = 2; // Display 2 items at a time
+  const totalItems = 4; 
+  const itemsPerView = 2; 
   const sliderRef = useRef(null);
 
   const handleNext = () => {
